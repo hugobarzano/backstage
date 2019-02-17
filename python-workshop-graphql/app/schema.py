@@ -27,7 +27,6 @@ class AddNinja(relay.ClientIDMutation):
     }
 	}
 }'''
-
     class Input:
         name = graphene.String(required=True)
 
